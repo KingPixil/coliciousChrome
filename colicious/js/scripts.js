@@ -37,6 +37,7 @@ function colorGen() {
 function updateColor(c) {
   previousColor = color;
   color = c;
+  document.title = 'New Tab - ' + color;
   //$('.ripple').css('background', previousColor);
   $('#color').html(color);
   $('body').css('background', color);
