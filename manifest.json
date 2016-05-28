@@ -1,0 +1,9 @@
+{
+	"name": "Colicious",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"description": "Generate a delicious color on a new tab.",
+	"chrome_url_overrides": {
+		"newtab": "colicious/index.html"
+	}
+}
